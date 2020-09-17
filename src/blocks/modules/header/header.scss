@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url(../../../img/header/header_img.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 19px;
+        align-items: center;
+
+        &__number {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            font-family: MullerRegular;
+
+            div {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 18px;
+                float: right;
+                margin-top: 10px;
+                font-family: MullerBold;
+            }
+        }
+    }
+
+    &-title {
+        margin-top: 179px;
+        font-family: "MullerMedium";
+        font-size: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &-subtitle {
+        font-family: "MullerRegular";
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 45px;
+    }
+
+    &-country {
+        font-family: "MullerRegular";
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 14px;
+    }
+
+    &-request {
+        width: 300px;
+        height: 60px;
+        border: 2px solid #ffffff;
+        background: none;
+        margin-top: 99px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "MullerBold";
+    }
+
+    &-social {
+        margin-top: 140px;
+
+        a {
+            width: 26px;
+            height: 26px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 40px;
+        }
+    }
+}
